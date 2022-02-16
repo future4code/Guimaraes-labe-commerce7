@@ -1,8 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
+    const state = useSelector((state) => state.handleCart)
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white py-3 shadow-sm " >
@@ -14,10 +15,10 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+                                <NavLink className="nav-link active" aria-current="page" to="/home">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="./products">Produtos</NavLink>
+                                <NavLink className="nav-link" to="/products">Produtos</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/sobre">Sobre</NavLink>
@@ -31,9 +32,9 @@ const Navbar = () => {
                             <NavLink to="/Login" className="btn btn-outline-dark">
                                 <i className="fa fa-sign-in me-1"></i> Login </NavLink>
                             <NavLink to="/registre-se" className="btn btn-outline-dark ms-2">
-                                <i className="fa fa-user-plus me-1"></i> Regristre-se </NavLink>
-                            <NavLink to="/carrinho" className="btn btn-outline-dark ms-2">
-                                <i className="fa fa-cart-plus me-1"></i>  Carrinho {[0]} </NavLink>
+                                <i className="fa fa-user-plus me-1"></i> Registre-se </NavLink>
+                            <NavLink to="/cart" className="btn btn-outline-dark ms-2">
+                                <i className="fa fa-cart-plus me-1"></i>  Carrinho ({state.length}) </NavLink>
                         </div>
                     </div>
                 </div>
