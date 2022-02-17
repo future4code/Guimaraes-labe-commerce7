@@ -1,18 +1,15 @@
-//For Add Item to Cart//
-
-export const addItem = (product) =>{
-    return{
-        type: "ADDCART",
-        payload: product,
+// Adiciona ao carrinho
+export const addItem = (product) => {
+    return {
+        type : "ADDITEM",
+        payload : product
     }
 }
 
-
-//For Delete Item From Cart//
-
-export const delItem = (product) =>{
-    return{
-        type: "DELITEM",
-        payload: product,
+export const delItem = (product) => {
+    return {
+        type : "DELITEM",
+        payload : product
     }
 }
+
