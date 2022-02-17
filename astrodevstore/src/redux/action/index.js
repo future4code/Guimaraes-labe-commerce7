@@ -1,4 +1,3 @@
-
 // Adiciona ao carrinho
 export const addItem = (product) => {
     return {
@@ -13,3 +12,4 @@ export const delItem = (product) => {
         payload : product
     }
 }
+

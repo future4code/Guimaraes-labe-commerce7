@@ -1,8 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
-
-
 const Navbar = () => {
         const state = useSelector((state) => state.handleCart)
     return (
@@ -16,10 +14,10 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+                                <NavLink className="nav-link active" aria-current="page" to="/home">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="./products">Produtos</NavLink>
+                                <NavLink className="nav-link" to="/products">Produtos</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/sobre">Sobre</NavLink>
