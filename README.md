@@ -10,8 +10,8 @@ E-commerce de loja de roupas.
 * [Acesse o site aqui] //(adicionar o link do surge aqui)
 
 ## Feito por
-Crhistian Felipe da Silva
-Matheus Bezerra Evaristo
-Taynara Gomes Politano
+Crhistian Felipe da Silva <br/>
+Matheus Bezerra Evaristo <br/>
+Taynara Gomes Politano <br/>
 
 para o curso de DEV FULL STACK - Labenu
