@@ -6,9 +6,8 @@ Loja Online do ASTRODEV - o Robô da Labenu
 Feito com Javascript, react e CSS.
 
 E-commerce de loja de roupas.
-
-* [Acesse o site aqui] //(adicionar o link do surge aqui)
-
+<a href=“rigid-corn.surge.sh“>Flex Grid</a>
+ 
 ## Feito por
 Crhistian Felipe da Silva <br/>
 Matheus Bezerra Evaristo <br/>
