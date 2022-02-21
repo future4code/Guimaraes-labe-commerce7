@@ -1,6 +1,5 @@
-```
 
-<img src="/assets/images/home/menina-universo.jpg" align="right" width="300">  
+![menina-universo](https://user-images.githubusercontent.com/89948060/154873824-37cf3355-1d45-4490-8027-4bd1d7ebd0b7.jpg)
 
 # ASTRODEV STORE
 Loja Online do ASTRODEV - o Robô da Labenu
@@ -16,4 +15,3 @@ Matheus Bezerra Evaristo
 Taynara Gomes Politano
 
 para o curso de DEV FULL STACK - Labenu
-```
